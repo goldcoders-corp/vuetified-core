@@ -1,0 +1,68 @@
+{
+    "name": "codeitlikemiley/vuetified-core",
+    "description": "Vuetified Core",
+    "keywords": [
+        "laravel",
+        "laravel-preset",
+        "vuetified",
+        "vuetify",
+        "inertiajs"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uriah Galang",
+            "email": "codeitlikemiley@gmail.com",
+            "homepage": "https://www.facebook.com/uriah.san"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Jhnbrn90/laravel-package-tools"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.4",
+        "illuminate/console": "^6.0",
+        "illuminate/http": "^6.0",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "beyondcode/laravel-package-tools": "dev-feature/add-support-for-laravel-6",
+        "squizlabs/php_codesniffer": "^3.4",
+        "nadar/php-composer-reader": "^1.2",
+        "jackiedo/dotenv-editor": "^1.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Codeitlikemiley\\VuetifiedCore\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codeitlikemiley\\VuetifiedCore\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codeitlikemiley\\VuetifiedCore\\VuetifiedCoreServiceProvider"
+            ],
+            "aliases": {
+                "VuetifiedCore": "Codeitlikemiley\\VuetifiedCore\\VuetifiedCoreFacade"
+            }
+        }
+    }
+}
