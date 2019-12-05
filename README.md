@@ -7,6 +7,7 @@
     <a href="https://scrutinizer-ci.com/g/codeitlikemiley/vuetified-core"><img src="https://img.shields.io/scrutinizer/g/codeitlikemiley/vuetified-core.svg?style=flat-square" alt="Quality Score"></a>
     <a href="https://packagist.org/packages/codeitlikemiley/vuetified-core"><img src="https://img.shields.io/packagist/dt/codeitlikemiley/vuetified-core.svg?style=flat-square" alt="Total Downloads"></a>
 </section>
+
 -   Quick Install Vuetify and InertiaJS with Some Goodies You Need To Start a Project
 
 ![pic-full-191203-1400-24](https://user-images.githubusercontent.com/28816690/70024537-61212180-15d5-11ea-8b31-584c982507ba.png)
